@@ -1,8 +1,8 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import ColorContextProvider from './ColorContext';
+import ColorContextProvider from './state/ColorContext';
 import { Provider } from 'react-redux';
-import store from './store';
+import store from './state/store';
 
 import App from './App';
 
